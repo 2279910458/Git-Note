@@ -1,0 +1,13 @@
+# git 命令
+
+`git branch --set-upstream-to=origin/markdown markdown` 关联本地分支与远程分支（需要两个分支都存在）
+
+`git push -f origin markdown:markdown` 强制推送至远程分支
+
+`git remote show origin` 查看remote地址，远程分支，还有本地分支与之相对应关系
+
+`git remote prune origin` 删除远程仓库不存在的分支
+
+`git push --set-upstream origin coding-style` 创建一个远程分支 coding-style
+
+`git push origin --delete <branch>` 删除一个远程分支
